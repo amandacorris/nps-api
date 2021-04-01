@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #EAD7D1;
+    color: #31572c;
+}
+
+button, input[type="text"] {
+    padding: 5px;
+    
+}
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.error-message {
+color: red;
+}
+
+.hidden {
+    display: none;
+}
