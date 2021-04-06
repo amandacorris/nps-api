@@ -11,7 +11,7 @@ function displayResults(responseJson, maxResults) {
     $('.js-error-message').empty();
     $('.results-list').empty();
     
-for (let i = 0; i < responseJson.data.length & i < maxResults; i++) {
+for (let i = 0; i < responseJson.data.length; i++) {
         $('.results-list').append(`<li><h3><a href="${responseJson.data[i].url}">${responseJson.data[i].fullName}</a></h3>
         <p>${responseJson.data[i].description}</p>
         </li>`);
